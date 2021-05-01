@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="./respuestas.php" method="POST">
+        <fieldset style="width: 400px;">
+            <legend>Universidad</legend>
+            <label for="nombre">Nombre:
+                <input type="text" name="nombre" placeholder="Ingresa tu nombre" required>
+            </label>
+            <br><br>
+            <label for="ApP">Apellido Paterno:
+                <input type="text" name="ApP" value="ApP" placeholder="Ingresa tu apellido Paterno" required>
+            </label>
+            <br><br>
+            <label for="ApM">Apellido Materno:
+                <input type="text" name="ApM" value="ApM" placeholder="Ingresa tu apellido materno" required>
+            </label>
+            <br><br>
+            <label>Sexo:</label>
+                <select name="sexo" placeholder="Ingresa tu sexo" required>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+            </label>
+            <br><br>
+            <label for="edad">Edad:
+                <input type="number" name="edad" min="15" max="30" placeholder="Ingresa tu edad" required>
+            </label>
+            <br><br>
+            <label for="Correo">Correo electronico:
+                <input type="email" name="Correo" placeholder="Ingresa tu email" required>
+            </label>
+            <br><br>
+            <label for="telefono">Telefono
+            <input type="number" name="telefono" placeholder="Ingresa tu telefono" required>
+            </label>
+            <br><br>
+            <label for="celular">Celular
+                <input type="number" name="celular" placeholder="Ingresa tu celular required">
+            </label>
+            <br><br>
+            <label for="Procedencia"> Escuela de Procedencia
+                <select name="Procedencia" placeholder="Ingresa tu Escuela de Procedencia" required>
+                    <option value="Escuela Naciona Preparatoria">Escuela Naciona Preparatoria</option>
+                    <option value="Colegio de Ciencias y Humanidades">Colegio de Ciencias y Humanidades</option>
+                    <option value="Incorporadas a la SEP">Incorporadas a la SEP</option>
+                    <option value="Incorporadas a la UNAM<">Incorporadas a la UNAM</option>
+                </select>
+            </label>
+            <br><br>
+            <label for="promedio">Promedio
+                <select name="Promedio" placeholder="Ingresa tu promedio" required>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </label>
+            <br><br>
+            <label for="primeraO">Primera opcion
+                <input type="text" name="primeraO" placeholder="Ingresa tu primera opcion" required>
+            </label>
+            <br><br>
+            <label for="segundaO">Segunda opcion
+                <input type="text" name="segundaO" placeholder="Ingresa tu segunda opcion" required>
+            </label>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpiar</button>
+            <br><br>
+    </form>
+</body>
+</html>
