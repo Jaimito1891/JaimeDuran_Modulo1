@@ -1,5 +1,5 @@
 <?php
-    $res=array($_POST["Pregunta1"], $_POST["Pregunta2"],$_POST["Pregunta3"], $_POST["Pregunta4"], $_POST["Pregunta5"], $_POST["Pregunta6"], $_POST["Pregunta7"], $_POST["Pregunta8"], $_POST["Pregunta9"], $_POST["Pregunta10"]);
+    $res=array($_POST["Pregunta1"], $_POST["Pregunta2"], $_POST["Pregunta3"], $_POST["Pregunta4"], $_POST["Pregunta5"], $_POST["Pregunta6"], $_POST["Pregunta7"], $_POST["Pregunta8"], $_POST["Pregunta9"], $_POST["Pregunta10"]);
     sort($res);
     $a=0;
     $b=0;
